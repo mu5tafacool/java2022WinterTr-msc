@@ -15,5 +15,8 @@ public class C05_Scanner {
         System.out.println("girdiginiz yaricap : " + yaricap);
         System.out.println("cemberin cevresi : " + 2*3.14*yaricap);
         System.out.println("dairenin alani : " + 3.14* yaricap*yaricap);
+
+
+
     }
 }

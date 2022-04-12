@@ -4,6 +4,13 @@ import java.util.Scanner;
 
 public class C04_DoWhileLoop {
     public static void main(String[] args) {
+        // Kullanicidan toplamak uzere pozitif sayilar isteyin,
+        // islemi bitirmek icin 0’a basmasini soyleyin.
+        //  Kullanici yanlislikla negative sayi girerse o sayiyi dikkate almayin
+        //  ve “Negatif sayi giremezsiniz” yazdirip basa donun
+        //  Kullanici 0’a bastiginda toplam kac pozitif sayi girdigini,
+        //  yanlislikla kac negative sayi girdigini
+        //  ve girdigi pozitif sayilarin toplaminin kac oldugunu yazdirin.
 
         Scanner scan=new Scanner(System.in);
         int sayi=0;
@@ -21,7 +28,7 @@ public class C04_DoWhileLoop {
                 toplam+=sayi;
                 sayacPozitif++;
             }
-        }while (sayi!=0);
+        }while (sayi!=0); //do while loop ta sayi 0 a esit olmayana kadar calisir
         System.out.println("yanlislikla girilen negatif sayi adeti : " + sayacNegatif);
         System.out.println("girilen pozitif sayi adeti: " + sayacPozitif);
         System.out.println("girilen sayilar toplami : " + toplam);

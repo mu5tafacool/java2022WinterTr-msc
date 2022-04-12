@@ -16,7 +16,7 @@ public class C03_DoWhileLoop {
 
             sayi++;
         }
-        //do while loop calismasi*******************
+        System.out.println("\n*******************\ndo while loop calismasi\n*******************");
         // kullanicidan alinan degerde ilk kontrol yapildigini gormek icin yapiliyor
         // kullanicidan alinan deger icin kullanilir ve sonra kontrol etmek icin kullaniliyor
         sayi=1;
