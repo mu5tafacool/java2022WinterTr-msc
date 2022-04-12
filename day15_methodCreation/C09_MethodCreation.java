@@ -11,23 +11,25 @@ public class C09_MethodCreation {
 
         String gizlenmisIsimSoyisim= isimSoyisimGizle(isim,soyisim);
         // bana isim ve soyismin gizlenmis halini getirmesini istiyorum
-        // bekledigim donus String olur
+        // bekledigim donus String olur cunku bunu yazdiracagim
 
-        System.out.println(gizlenmisIsimSoyisim); //
+        System.out.println(gizlenmisIsimSoyisim); //gizlenmis olani asayida ccalisan method ile yaziyoruz
         String gizlenmisKKNo=krediKartiGizle(kKNo);
         System.out.println(gizlenmisKKNo);
     }
 
     public static String isimSoyisimGizle(String isim, String soyisim) {
         String yeniIsim = isim.substring(0,1).toUpperCase()+
-                isim.substring(1).replaceAll("\\S","*");
+                isim.substring(1).replaceAll("\\S","*"); //ismin ilk harfi al upper yap
+                                                 // 2. harften sonra tum karakterleri yildiza replace yap
+
         String yeniSoyisim= soyisim.substring(0,1).toUpperCase()+
                 soyisim.substring(1).replaceAll("\\S","*");
 
         // method olusturmada 3.adim
         // method calisinca sadece birsey mi yazdiracak
         // yoksa bize bir data mi dondurecek buna karar vermektir
-        // Bu soruda gizlenmis isim soyisim dondurmesi istendiginden
+        // Bu soruda gizlenmis isim soyisim "dondurmesi istendiginden"
         // return Type'i void degil String sectik
         // ve method'un sonuna return edilecek datayi yazdik
         return yeniIsim+" "+yeniSoyisim;

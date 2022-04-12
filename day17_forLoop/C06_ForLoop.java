@@ -19,7 +19,7 @@ public class C06_ForLoop {
 
         double baslangic=1;
         double bitis=2;
-        double artis=0.2;
+        double artis=0.2; //i artis kullanimi
 
         for (double i = baslangic; i <=bitis ; i+=artis) {
             System.out.print(i + " ");

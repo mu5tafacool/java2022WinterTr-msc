@@ -5,7 +5,7 @@ public class C07_MethodCreation {
 
         // string'i yazdiran method olusturalim
         // hosgeldiniz diyen bir method olusturun
-        // kapanma mesaji yazn bir method olustur
+        // kapanma mesaji yazan bir method olustur
         hosgeldinYazdir();
     }
     public static void kapanmaMethodu() {

@@ -7,7 +7,7 @@ public class C01_MethodCreation {
 
 
         str.substring(0,4);
-        // str'in ilk 4 harfini almak istesek
+        // str'in ilk 4 harfini almak istesek yani 0 dan4 e
         str.substring(0,4);
         // Bir program yapaken kodlarimizin daha kisa ve anlasilabilir olmasi icin
         // surekli kullanabilecegimiz kod bloklarini hazir olarak bir yere koyar

@@ -19,7 +19,7 @@ public class C07_WhileLoop {
             sayi= scan.nextInt();
             toplam+=sayi;
         }
-        System.out.println("girilen "+ sayiAdedi + "sayinin toplami :" + toplam);
+        System.out.println("girilen "+ sayiAdedi + " sayinin toplami :" + toplam);
 
         //while ile yapimi***********************
 

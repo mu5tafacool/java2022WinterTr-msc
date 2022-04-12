@@ -2,7 +2,7 @@ package day18_nestedForLoop;
 
 public class C02_NestedForLoop {
     public static void main(String[] args) {
-// kullanicidan bir rakam carpim tablosu olusturalim
+        // kullanicidan bir rakam carpim tablosu olusturalim
         //Tanim: Nested for loop ic ice gecenleri bulmak icin yapmak icin
 
         // 1 2 3         1*1  1*2  1*3

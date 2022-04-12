@@ -14,7 +14,7 @@ public class C02_MethodCreation {
         if (kelime.length()<3){
             System.out.println("kelime cok kisa");
         }else if (kelime.length()<=5){
-            if (kelime.length()==3){
+            if (kelime.length()==3){ //substring te ilk 2 inci sonra 1 sonra 0 inci yazdirtiyoruz yani tersten
                 tersKelime=kelime.substring(2)+
                         kelime.substring(1,2)+
                         kelime.substring(0,1);

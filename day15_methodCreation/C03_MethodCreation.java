@@ -7,14 +7,17 @@ public class C03_MethodCreation {
         // eger kelime 3,4 veya 5 harfli ise harf sayisini ve
         // kelimenin tersten yazilisini yazdirin
         // eger 5 harften uzunsa "kelime cok uzun" yazdirin
+
         Scanner scan=new Scanner(System.in);
         System.out.println("Lutfen bir kelime giriniz");
         String kelime=scan.next();
-        int harfSayisi=kelime.length();
+
+        int harfSayisi=kelime.length(); //kelimedeki harf sayisina atama yapiyoruz
+
         if (harfSayisi<3){
             System.out.println("kelime cok kisa");
         }else if(harfSayisi==3){
-            ucHarfiTersineCevir(kelime);
+            ucHarfiTersineCevir(kelime); //asagida method calistiktan sonra sout yazdiriyor
         }else if (harfSayisi==4){
             dortHarfiTersineCevir(kelime);
         }else if (harfSayisi==5){
@@ -23,7 +26,7 @@ public class C03_MethodCreation {
             System.out.println("kelime cok uzun");
         }
     }
-
+//method ile kelime ters cevirme
 
     private static void besHarfiTersineCevir(String kelime) {
         String tersKelime= kelime.substring(4)+
