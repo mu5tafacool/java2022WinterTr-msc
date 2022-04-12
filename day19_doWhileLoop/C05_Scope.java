@@ -30,7 +30,7 @@ public class C05_Scope {
 
         int sayi2;
 
-        sayi4++; // class seviyesinde olusturup deger atamadigim sayi4'u artirmamama java itiraz etmiyor
+        sayi4++; //  class seviyesinde olusturup deger atamadigim sayi4'u artirmamama java itiraz etmiyor
         // sayi2++; // ama main method icinde olusturup deger atamadigim sayiyi artirmama java izin vermiyor
     }
     public static void method1(){
