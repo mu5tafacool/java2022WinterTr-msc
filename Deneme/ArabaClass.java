@@ -13,6 +13,22 @@ public class ArabaClass extends Araba {
         //Girilen Scanner a gore araba datalari atama
         //objeye scanner dan yil model atama
 
+
+
+        ArabaClass car2 = new ArabaClass();
+
+        System.out.println("model2 gir :");
+        String model2 = scan.next();
+        car2.setModel(model2);
+
+        System.out.println("sene gir :");
+        int sene2 = scan.nextInt();
+        car2.setYil(sene2);
+
+
+        System.out.println("car2 = " + car2);
+
+
        /*
        Araba car1 =new ArabaClass();
 
@@ -30,21 +46,5 @@ public class ArabaClass extends Araba {
 
         System.out.println("car1 = " + car1);
         */
-
-
-        ArabaClass car2 = new ArabaClass();
-
-        System.out.println("model2 gir :");
-        String model2 = scan.next();
-        car2.setModel(model2);
-
-        System.out.println("sene gir :");
-        int sene2 = scan.nextInt();
-        car2.setYil(sene2);
-
-
-        System.out.println("car2 = " + car2);
-
-
     }
 }
