@@ -18,7 +18,7 @@ public class C02_CarpimTablosu {
             for (int j = 1; j <=input ; j++) {
 
                 System.out.printf("%4d",i*j );
-            }
+            }//"%4d rakam ile beraber 4 karakter yer ayiriyor
             System.out.println("");
         }
     }

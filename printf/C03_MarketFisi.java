@@ -34,7 +34,7 @@ public class C03_MarketFisi {
         System.out.println("====================================");
         for (int i = 0; i < urun.length ; i++) {
             System.out.printf("%-8s %5.2fkg    €%05.2f  €%05.2f\n",urun[i],miktar[i],brFiyat[i],miktar[i]*brFiyat[i]);
-        }
+        }//€%05.2f basta bir 0 koy 5 karakter ayir ve .2 dan sonra 2 birim ayir
         System.out.println("====================================");
 
         double toplamUrunMiktari=0;
