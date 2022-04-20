@@ -1,6 +1,4 @@
-package Deneme;
-
-import Deneme.ArabaEncapsul.Araba;
+package Deneme.ArabaEncapsul;
 
 import java.util.Scanner;
 
