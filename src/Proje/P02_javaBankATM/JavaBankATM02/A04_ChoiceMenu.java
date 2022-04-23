@@ -1,9 +1,10 @@
-package JavaProjects.P02_javaBankATM.JavaBankATM02;
+package src.Proje.P02_javaBankATM.JavaBankATM02;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import static JavaProjects.P02_javaBankATM.JavaBankATM02.A03_Transactions.*;
+
+import static src.Proje.P02_javaBankATM.JavaBankATM02.A03_Transactions.*;
 
 public class A04_ChoiceMenu {
     static String correctPassword = "0000";
