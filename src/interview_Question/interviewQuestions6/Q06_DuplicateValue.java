@@ -16,6 +16,7 @@ public class Q06_DuplicateValue {
     public static void main(String[] args) {
         String str = "Javaisalsoeasy";
         char[] arr = str.toCharArray(); // her bir karakteri bir arraye donusturur
+      //  String[] arr1 = str.split(""); //[J, a, v, a, i, s, a, l, s, o, e, a, s, y]
         System.out.println("Arrays.toString(arr) = " + Arrays.toString(arr));
         //Arrays.toString(arr) = [J, a, v, a, i, s, a, l, s, o, e, a, s, y]
 
