@@ -1,4 +1,4 @@
-package printf;
+package src.q_Format_Example.printf;
 
 public class C01_TemelBilgiler {
 

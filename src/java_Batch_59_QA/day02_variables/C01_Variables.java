@@ -1,4 +1,4 @@
-package day02_variables;
+package src.java_Batch_59_QA.day02_variables;
 
 public class C01_Variables {
     public static void main(String[] args) {

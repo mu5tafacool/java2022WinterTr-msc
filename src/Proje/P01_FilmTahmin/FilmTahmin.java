@@ -1,4 +1,4 @@
-package JavaProjects.P01_FilmTahmin;
+package src.Proje.P01_FilmTahmin;
 
 import java.util.*;
 
