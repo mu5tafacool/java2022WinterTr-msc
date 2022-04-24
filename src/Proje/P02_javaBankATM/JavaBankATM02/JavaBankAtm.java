@@ -1,4 +1,4 @@
-package JavaProjects.P02_javaBankATM.JavaBankATM02;
+package src.Proje.P02_javaBankATM.JavaBankATM02;
 
 class JavaBankAtm {
    /*      ATM

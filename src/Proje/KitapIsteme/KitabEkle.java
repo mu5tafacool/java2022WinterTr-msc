@@ -1,4 +1,4 @@
-package Proje.KitapIsteme;
+package src.Proje.KitapIsteme;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -95,7 +95,7 @@ public class KitabEkle {
             String fiyat = scan.nextLine();
 
 
-            Proje.KitapIsteme.EklenenKitaplar kitap = new Proje.KitapIsteme.EklenenKitaplar(count, ad, yazarı, fiyat);
+            src.Proje.KitapIsteme.EklenenKitaplar kitap = new src.Proje.KitapIsteme.EklenenKitaplar(count, ad, yazarı, fiyat);
 
             kitapEkle.add(kitap);
             System.out.println(kitapEkle);
