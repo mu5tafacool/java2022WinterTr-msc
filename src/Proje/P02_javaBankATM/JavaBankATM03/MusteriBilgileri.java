@@ -1,4 +1,4 @@
-package JavaProjects.P02_javaBankATM.JavaBankATM03;
+package src.Proje.P02_javaBankATM.JavaBankATM03;
 
 public class MusteriBilgileri {
     public static String getKartNo() {

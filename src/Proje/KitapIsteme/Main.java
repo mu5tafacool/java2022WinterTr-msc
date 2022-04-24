@@ -1,7 +1,7 @@
-package Proje.KitapIsteme;
+package src.Proje.KitapIsteme;
 
-import static Proje.KitapIsteme.KitabEkle.menu;
-import static Proje.KitapIsteme.KitabEkle.secimPaneli;
+import static src.Proje.KitapIsteme.KitabEkle.menu;
+import static src.Proje.KitapIsteme.KitabEkle.secimPaneli;
 
 public class Main {
     public static void main(String[] args) {
