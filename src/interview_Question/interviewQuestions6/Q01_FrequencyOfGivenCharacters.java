@@ -1,4 +1,4 @@
-package interviewQuestions6;
+package src.interview_Question.interviewQuestions6;
 
 public class Q01_FrequencyOfGivenCharacters {
 	/*
