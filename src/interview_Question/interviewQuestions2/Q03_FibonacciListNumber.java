@@ -1,4 +1,4 @@
-package interviewQuestions2;
+package src.interview_Question.interviewQuestions2;
 
 import java.util.ArrayList;
 import java.util.List;

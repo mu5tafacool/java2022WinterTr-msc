@@ -1,4 +1,4 @@
-package interviewQuestions7;
+package src.interview_Question.interviewQuestions7;
 
 public class Q03_IFElse {
 		/* 3 ve 5 e bolunme
