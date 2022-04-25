@@ -19,7 +19,7 @@ public class Random_Integer_Change_String {
         idStr.add(b);
         idStr.add(c);
 
-        System.out.println("a = " + a);
+        System.out.println("a,b,c = " + a+", "+b+", "+c);
         System.out.println("idStr = " + idStr);
     }
 }
