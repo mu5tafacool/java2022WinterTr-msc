@@ -1,4 +1,4 @@
-package day03_scanner;
+package src.java_Batch_59_QA.day03_scanner;
 
 import java.util.Scanner;
 
