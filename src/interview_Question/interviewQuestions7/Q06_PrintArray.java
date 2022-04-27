@@ -1,4 +1,4 @@
-package interviewQuestions7;
+package src.interview_Question.interviewQuestions7;
 
 public class Q06_PrintArray {
     // Create a method which takes String array as a parameter
