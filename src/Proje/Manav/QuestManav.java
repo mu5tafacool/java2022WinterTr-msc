@@ -1,4 +1,6 @@
-package JavaProjects.Manav;
+package src.Proje.Manav;
+
+import java.util.InputMismatchException;
 
 public class QuestManav extends ManavInformation {
 
@@ -9,11 +11,24 @@ public class QuestManav extends ManavInformation {
         System.out.println(urunler);
         System.out.print("Alicaginiz urun : ");
 
-        int mSecim = scan.nextInt();
-        urunHesaplama(mSecim, urunler);
+        //  int mSecim = scan.nextInt();
+        //  urunHesaplama(mSecim, urunler);
 
 
-//tek problem harf girildiginde
+        while (true) { //try catch de devam eden dongu harf veya sayiya duyarli
+            try { //harf girildiginde hata vermeden devam eden while dongusu
+                int mSecim = scan.nextInt();
+                urunHesaplama(mSecim, urunler);
+            } catch (InputMismatchException e) {
+                String str = scan.next();
+                /****devam etmiyorburada sonra*/
+                System.out.println("sayi girmen lazim... \n" + urunler);
+
+            }
+        }
+
+
+
         /***** Alternatif
          int mSecim = 0;
          try {
