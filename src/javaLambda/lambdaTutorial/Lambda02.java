@@ -41,7 +41,8 @@ public class Lambda02 {
         sayi.
                 stream().
                 filter(Lambda01::ciftBul).
-                map(t -> t * t).//map()--> Stream içerisindeki elemanları başka tiplere dönüştürmek veya üzerlerinde işlem yapmak (update) için Map kullanılmaktadır.
+                map(t -> t * t).//map()--> Stream içerisindeki elemanları başka tiplere dönüştürmek veya
+                // üzerlerinde işlem yapmak (update) için Map kullanılmaktadır.
                 forEach(Lambda01::yazdir);
 
 
@@ -104,7 +105,7 @@ public class Lambda02 {
 
     // Task : List'teki tum elemanlarin toplamini yazdiriniz.
     //Lambda Expression...
-    public static void elTopla(List<Integer> sayi) {
+    public static void elTopla(List<Integer> sayi) { //0 toplam konteyniri
         int toplam = sayi.stream().reduce(0, (a, b) -> a + b);//Lambda Expression...
         /*
         a ilk degerini her zaman atanan degerden (identity) alır
@@ -130,7 +131,7 @@ public class Lambda02 {
         System.out.println("Lambda exp. : " + sayi.
                 stream().
                 filter(Lambda01::ciftBul).
-                reduce(1, (a, b) -> (a * b)));
+                reduce(1, (a, b) -> (a * b))); //1 carpim konteyniri
     }
 
     // Task : List'teki elemanlardan en kucugunu 4 farklı yontem ile print ediniz.
@@ -143,6 +144,7 @@ public class Lambda02 {
         System.out.println(minSayiMath);
         //3. yontem Lambda Expression
         int minSayiLJambda = (sayi.stream().reduce(Integer.MAX_VALUE, (x, y) -> x < y ? x : y));
+        //Integer.MAX_VALUE, baslangic degeri buyuk aliyoruz min bakildigindan. (x, y) al -> x < y kucuk ise(?) x : y birini al)
         int minSayiLJambda1 = (sayi.stream().reduce(0, (x, y) -> x < y ? x : y));//yukarıaki ile aynı sonucu vermez
         System.out.println("xxxx"+minSayiLJambda);
         System.out.println("aaaa"+minSayiLJambda1);
