@@ -20,13 +20,9 @@ public class QuestManav extends ManavInformation {
                 int mSecim = scan.nextInt();
                 urunHesaplama(mSecim, urunler);
             } catch (InputMismatchException e) {
-                String str = scan.next();
-                /****devam etmiyorburada sonra*/
                 System.out.println("sayi girmen lazim... \n" + urunler);
-
             }
         }
-
 
 
         /***** Alternatif
