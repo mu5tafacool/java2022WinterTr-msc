@@ -1,4 +1,4 @@
-package day04_dataCasting_Increment;
+package src.java_Batch_59_QA.day04_dataCasting_Increment;
 import java.util.Scanner;
 public class C01_Scanner {
     public static void main(String[] args) {
