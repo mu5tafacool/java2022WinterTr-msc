@@ -13,9 +13,11 @@ public class TryCatch_Examp {
         while (true) { //islem dogru olana iken devam
             try {
                 System.out.print("Vize giriniz: ");
-                if (scan.nextInt() < 0 || scan.nextInt() > 100) { //alinan scanleri 0 100 arasi kontrol
+                int num = scan.nextInt();
+                if (num < 0 || num > 100) {//alinan scanleri 0 100 arasi kontrol
                     throw new ArithmeticException();
-                } else break;
+                } else System.out.println("islem tamam");
+                break;
             } catch (ArithmeticException e) {
                 System.out.println("Not 0 ile 100 arasında olmalıdır");
             } catch (Exception e) { //rakam degilde kelime girdiginde
@@ -24,6 +26,18 @@ public class TryCatch_Examp {
             }
         }
 
+
+
+        while (true) {
+            try {
+                System.out.print("\n2. yontem rakam gir : ");
+                scan.nextInt();
+                break; // dogruysa durdurmak icin
+            } catch (Exception e) {
+                scan.next(); // devamli yazmamasi icin
+                System.out.println("rakam :");
+            }
+        }
 
     }
 }
