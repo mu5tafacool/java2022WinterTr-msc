@@ -1,8 +1,8 @@
-package src.q_Format_Example.printf;
+package src.q_Format_Example.tryCatch;
 
 import java.util.Scanner;
 
-public class TryCatch_Examp {
+public class TryCatch_Example {
 
 
     public static void main(String[] args) {
@@ -27,15 +27,16 @@ public class TryCatch_Examp {
         }
 
 
-
+/** 2* yonetem *********************************/
         while (true) {
             try {
                 System.out.print("\n2. yontem rakam gir : ");
-                scan.nextInt();
+                scan.nextInt(); //int sayi=scan.nextInt();
+                //System.out.println("sayi = " + sayi);
                 break; // dogruysa durdurmak icin
             } catch (Exception e) {
-                scan.next(); // devamli yazmamasi icin
-                System.out.println("rakam :");
+                String str = scan.next(); // devamli yazmamasi icin
+                System.out.println(str+" rakam degil");
             }
         }
 
