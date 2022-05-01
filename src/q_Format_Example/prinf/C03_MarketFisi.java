@@ -1,4 +1,4 @@
-package src.q_Format_Example.printf;
+package src.q_Format_Example.prinf;
 
 import java.util.Arrays;
 import java.util.List;
