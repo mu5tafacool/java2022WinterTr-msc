@@ -1,4 +1,4 @@
-package day39_overriding;
+package src.java_Batch_59_QA.day39_overriding;
 
 public class Araba {
     protected String hareket="Arabalar Teker ile hareket eder";

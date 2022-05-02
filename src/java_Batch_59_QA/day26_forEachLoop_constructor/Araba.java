@@ -1,4 +1,4 @@
-package day26_forEachLoop_constructor;
+package src.java_Batch_59_QA.day26_forEachLoop_constructor;
 public class Araba {
     /* Java'da her Class olusturdugumuzda
        Java o class'dan ileride objeler uretmek gerekecegini bilir
