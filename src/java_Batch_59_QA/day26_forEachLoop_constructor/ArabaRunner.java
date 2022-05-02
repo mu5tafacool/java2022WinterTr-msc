@@ -1,4 +1,4 @@
-package day26_forEachLoop_constructor;
+package src.java_Batch_59_QA.day26_forEachLoop_constructor;
 
 public class ArabaRunner {
     public static void main(String[] args) {
