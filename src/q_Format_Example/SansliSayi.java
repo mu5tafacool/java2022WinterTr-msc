@@ -1,4 +1,4 @@
-package src.q_Format_Example.printf;
+package src.q_Format_Example;
 
 import java.util.*;
 

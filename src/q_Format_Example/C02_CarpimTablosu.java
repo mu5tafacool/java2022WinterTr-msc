@@ -1,4 +1,4 @@
-package src.q_Format_Example.printf;
+package src.q_Format_Example;
 
 public class C02_CarpimTablosu {
     /* verilen sayi icin carpim tablosu olusturun
