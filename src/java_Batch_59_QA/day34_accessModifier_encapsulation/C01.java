@@ -1,4 +1,4 @@
-package day34_accessModifier_encapsulation;
+package src.java_Batch_59_QA.day34_accessModifier_encapsulation;
 
 public class C01 {
     private static int sayi=10;
