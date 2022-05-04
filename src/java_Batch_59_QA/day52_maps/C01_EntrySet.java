@@ -1,6 +1,5 @@
 package src.java_Batch_59_QA.day52_maps;
 import src.java_Batch_59_QA.day49_maps.MapOlustur;
-
 import java.util.Map;
 import java.util.Set;
 public class C01_EntrySet {
