@@ -1,4 +1,4 @@
-package day25_lists;
+package src.java_Batch_59_QA.day25_lists;
 import java.util.ArrayList;
 import java.util.List;
 public class C01_Contains {
