@@ -1,4 +1,4 @@
-package day31_immutableClasses;
+package src.java_Batch_59_QA.day31_immutableClasses;
 
 public class C01_Equals {
 
