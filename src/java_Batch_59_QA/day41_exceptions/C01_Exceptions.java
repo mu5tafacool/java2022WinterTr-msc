@@ -1,4 +1,4 @@
-package day41_exceptions;
+package src.java_Batch_59_QA.day41_exceptions;
 
 public class C01_Exceptions {
     public static void main(String[] args) {
