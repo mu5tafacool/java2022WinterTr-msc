@@ -1,4 +1,4 @@
-package day04_dataCasting_Increment;
+package src.java_Batch_59_QA.day04_dataCasting_Increment;
 public class C02_AutoWidening {
     public static void main(String[] args) {
         boolean dogruMu=true;
