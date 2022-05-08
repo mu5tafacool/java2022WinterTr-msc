@@ -1,4 +1,4 @@
-package day30_passByValue;
+package src.java_Batch_59_QA.day30_passByValue;
 
 public class C01_StaticBlocks {
     static {
