@@ -1,4 +1,4 @@
-package day07_ifElseStatements;
+package src.java_Batch_59_QA.day07_ifElseStatements;
 
 public class C02_IfStatements {
 
