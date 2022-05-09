@@ -29,11 +29,18 @@ public class MapDeneme {
         for (ArrayList<String> v : map.values()) {
             System.out.println("value = " + v);
         }
+        System.out.println("_____MAP FOREACH ILE YAZDIRMA________");
+        for (Map.Entry<String, ArrayList<String>> entryYeni : map.entrySet()) {
+            System.out.println(entryYeni.getKey() + " " + entryYeni.getValue());
+
+        }
 
         System.out.println("**********Lamnbda ile yazdirma degerleri**********");
         map.values().stream().forEach(t -> System.out.println(t + " ")); //[ali, veli, hasan, ece, ata, gul]
         // [kaan, can, su, sila, nil, lale]
+
         System.out.println("___________________________________");
+
 
 
         System.out.println("\n***************TC NO KAYIT *********************");
@@ -42,9 +49,9 @@ public class MapDeneme {
         String secim = "";
         HashMap<String, HashMap<String, String>> kisiListesi = new HashMap<>();
 
+        HashMap<String, String> kisiBilgisi = new HashMap<>();
         KisiBilgisiClass kisiEkle; //klastan kisiEkle die obje yaptik
         do {
-            HashMap<String, String> kisiBilgisi = new HashMap<>();
 
             System.out.print("Ad girin : ");
             String ad = scan.next();
@@ -82,6 +89,7 @@ public class MapDeneme {
         scan.next();//bunny
         System.out.print("\nsorgulama icin tc no girin");
         System.out.println(kisiListesi.get(scan.nextLine()));
+
 
 
     }
