@@ -1,6 +1,5 @@
 package src.javaLambda.lambdaTutorial;
 
-
 public class Universite {
     /*
     TASK :
@@ -65,11 +64,11 @@ public class Universite {
 
     @Override
     public String toString() {
-        return "Universite{" +
+        return
                 "universite='" + universite + '\'' +
-                ", bolum='" + bolum + '\'' +
-                ", ogrSayisi=" + ogrSayisi +
-                ", notOrt=" + notOrt +
-                '}';
+                        ", bolum='" + bolum + '\'' +
+                        ", ogrSayisi=" + ogrSayisi +
+                        ", notOrt=" + notOrt +
+                        "\n";
     }
 }
