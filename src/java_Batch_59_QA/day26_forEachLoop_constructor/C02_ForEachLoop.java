@@ -1,4 +1,4 @@
-package day26_forEachLoop_constructor;
+package src.java_Batch_59_QA.day26_forEachLoop_constructor;
 import java.util.ArrayList;
 import java.util.List;
 public class C02_ForEachLoop {
