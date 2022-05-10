@@ -1,4 +1,4 @@
-package day08_ifElseIfStatements;
+package src.java_Batch_59_QA.day08_ifElseIfStatements;
 import java.util.Scanner;
 public class C02_NotuHarfeCevirme {
     public static void main(String[] args) {
