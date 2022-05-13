@@ -1,4 +1,4 @@
-package day34_accessModifier_encapsulation;
+package src.java_Batch_59_QA.day34_accessModifier_encapsulation;
 
 public class C03 {
     // encapsule edecegimiz 2 variable olusturalim
