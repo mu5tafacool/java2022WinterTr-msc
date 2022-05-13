@@ -1,4 +1,4 @@
-package day33_varargs_stringBuilder;
+package src.java_Batch_59_QA.day33_varargs_stringBuilder;
 
 public class C02_Varargs {
     public static void main(String[] args) {
