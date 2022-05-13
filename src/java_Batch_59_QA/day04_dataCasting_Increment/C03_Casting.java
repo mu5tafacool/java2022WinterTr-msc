@@ -1,4 +1,4 @@
-package day04_dataCasting_Increment;
+package src.java_Batch_59_QA.day04_dataCasting_Increment;
 public class C03_Casting {
     public static void main(String[] args) {
         int sayi1= 8;
