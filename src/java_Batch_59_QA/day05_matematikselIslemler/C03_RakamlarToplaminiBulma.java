@@ -1,4 +1,4 @@
-package day05_matematikselIslemler;
+package src.java_Batch_59_QA.day05_matematikselIslemler;
 import java.util.Scanner;
 public class C03_RakamlarToplaminiBulma {
     public static void main(String[] args) {
