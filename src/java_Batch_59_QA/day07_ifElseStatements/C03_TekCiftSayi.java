@@ -1,4 +1,4 @@
-package day07_ifElseStatements;
+package src.java_Batch_59_QA.day07_ifElseStatements;
 import java.util.Scanner;
 public class C03_TekCiftSayi {
     public static void main(String[] args) {
