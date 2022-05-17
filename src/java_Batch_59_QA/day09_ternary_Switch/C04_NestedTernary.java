@@ -1,4 +1,4 @@
-package day09_ternary_Switch;
+package src.java_Batch_59_QA.day09_ternary_Switch;
 
 public class C04_NestedTernary {
     public static void main(String[] args) {
