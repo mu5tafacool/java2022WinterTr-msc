@@ -1,4 +1,4 @@
-package day30_passByValue;
+package src.java_Batch_59_QA.day30_passByValue;
 
 public class C04_PassByValue {
     // eger bir method'da yapilan degisikligin kalici olmasini istiyorsak
