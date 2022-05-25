@@ -1,6 +1,6 @@
-package day37_inheritance;
+package src.java_Batch_59_QA.day37_inheritance;
 
-import day36_inheritance.Parent;
+import src.java_Batch_59_QA.day36_inheritance.Parent;
 
 public class Child extends Parent {
     // bir class'i child class yaptigimizda
