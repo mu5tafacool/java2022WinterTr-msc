@@ -1,4 +1,4 @@
-package src.trial_Deneme.ArabaEncapsul;
+package src.trial_Deneme;
 
 
 import java.util.Scanner;
