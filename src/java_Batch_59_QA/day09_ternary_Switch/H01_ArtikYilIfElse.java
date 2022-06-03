@@ -1,4 +1,4 @@
-package day09_ternary_Switch;
+package src.java_Batch_59_QA.day09_ternary_Switch;
 import java.util.Scanner;
 public class H01_ArtikYilIfElse {
     public static void main(String[] args) {
