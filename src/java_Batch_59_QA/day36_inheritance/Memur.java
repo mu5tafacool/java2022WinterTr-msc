@@ -1,4 +1,4 @@
-package day36_inheritance;
+package src.java_Batch_59_QA.day36_inheritance;
 
 public class Memur extends Muhasebe{
 
