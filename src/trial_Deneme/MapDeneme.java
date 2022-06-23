@@ -1,7 +1,7 @@
 package src.trial_Deneme;
 
-import java.awt.List;
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class MapDeneme {
 
@@ -17,7 +17,10 @@ public class MapDeneme {
         map.put("B", sinifB);
 
         System.out.println(map);
+        System.out.println("map.size() = " + map.size());
 
+        System.out.println("map value = " + map.values()); //[[ali, veli, hasan, ece, ata, gul], [kaan, can, su, sila, nil, lale]]
+        System.out.println("map keySet = " + map.keySet()); //[A, B]
 
         System.out.println("listeme sinifi");
         Set<Map.Entry<String, ArrayList<String>>> mapSet = map.entrySet(); //set entry yapiyoruz yazdirma icin
@@ -27,26 +30,26 @@ public class MapDeneme {
 
         }
         for (ArrayList<String> v : map.values()) {
-            System.out.println("value = " + v);
-        }
+            System.out.println("value = " + v); //value = [ali, veli, hasan, ece, ata, gul]
+        } //value = [kaan, can, su, sila, nil, lale]
+
         System.out.println("_____MAP FOREACH ILE YAZDIRMA________");
         for (Map.Entry<String, ArrayList<String>> entryYeni : map.entrySet()) {
-            System.out.println(entryYeni.getKey() + " " + entryYeni.getValue());
-
-        }
+            System.out.println(entryYeni.getKey() + " " + entryYeni.getValue()); //A [ali, veli, hasan, ece, ata, gul]
+        } //B [kaan, can, su, sila, nil, lale]
+        System.out.println(map.get("A")); //[ali, veli, hasan, ece, ata, gul]
 
         System.out.println("**********Lamnbda ile yazdirma degerleri**********");
-        map.values().stream().forEach(t -> System.out.println(t + " ")); //[ali, veli, hasan, ece, ata, gul]
+        map.values().forEach(t -> System.out.println(t + " ")); //[ali, veli, hasan, ece, ata, gul]
         // [kaan, can, su, sila, nil, lale]
 
         System.out.println("___________________________________");
 
 
-
         System.out.println("\n***************TC NO KAYIT *********************");
         Scanner scan = new Scanner(System.in);
         Scanner scanTc = new Scanner(System.in);
-        String secim = "";
+        String secim;
         HashMap<String, HashMap<String, String>> kisiListesi = new HashMap<>();
 
         HashMap<String, String> kisiBilgisi = new HashMap<>();
@@ -89,7 +92,6 @@ public class MapDeneme {
         scan.next();//bunny
         System.out.print("\nsorgulama icin tc no girin");
         System.out.println(kisiListesi.get(scan.nextLine()));
-
 
 
     }
