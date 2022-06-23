@@ -1,4 +1,4 @@
-package day27_constructor;
+package src.java_Batch_59_QA.day27_constructor;
 public class ZRunner {
     public static void main(String[] args) {
         Z obj1= new Z("Emre", "Gulser", 44, true);
