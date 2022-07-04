@@ -18,6 +18,11 @@ public class C04_ExplicitNarrowing {
         byte sayi6=(byte) sayi5;
         System.out.println(sayi6);
 
+        /*
+        * 87.9
+         * 87
+        * -116
+        * */
 
 
     }
