@@ -13,9 +13,9 @@ public class C02_preincrementpostincrement {
         sayi3=++sayi1;
         System.out.println(sayi1 + ", " + sayi2 + ", " + sayi3);
 
-        System.out.println(sayi3++);
+        System.out.println(sayi3++); //12
 
-        System.out.println(--sayi2);
+        System.out.println(--sayi2); //9
 
 
     }
