@@ -1,4 +1,4 @@
-package day12_stringManipulation;
+package src.java_Batch_59_QA.day12_stringManipulation;
 
 import java.util.Scanner;
 
