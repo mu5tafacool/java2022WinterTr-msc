@@ -1,4 +1,4 @@
-package day16_methodCreation;
+package src.java_Batch_59_QA.day16_methodCreation;
 public class C01_MethodIleSifreKontrol {
     public static void main(String[] args) {
 
