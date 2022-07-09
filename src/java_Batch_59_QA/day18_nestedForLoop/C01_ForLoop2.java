@@ -1,4 +1,4 @@
-package day18_nestedForLoop;
+package src.java_Batch_59_QA.day18_nestedForLoop;
 
 public class C01_ForLoop2 {
     public static void main(String[] args) {
@@ -18,10 +18,10 @@ public class C01_ForLoop2 {
             //System.out.println(input + "! = " + faktoriyelAcıkYazim.substring(0, faktoriyelAcıkYazim.length()-1) + " = " +faktoryel);
 
             if (i==input){
-                faktoryelAcikYazim=faktoryelAcikYazim+ i;
+                faktoryelAcikYazim=faktoryelAcikYazim+ i; //9
             }else
-                faktoryelAcikYazim=faktoryelAcikYazim+ "*"+ i;
+                faktoryelAcikYazim=faktoryelAcikYazim+ "*"+ i; //*8*7*6*5*4*3*2*1
         }
         System.out.println(input+"! ="+ faktoryelAcikYazim + "=" + faktoryel);
-    }
+    } //9! =9*8*7*6*5*4*3*2*1=362880
 }
