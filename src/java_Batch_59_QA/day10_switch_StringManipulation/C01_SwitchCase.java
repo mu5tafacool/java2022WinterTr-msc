@@ -1,4 +1,4 @@
-package day10_switch_StringManipulation;
+package src.java_Batch_59_QA.day10_switch_StringManipulation;
 
 import java.util.Scanner;
 
