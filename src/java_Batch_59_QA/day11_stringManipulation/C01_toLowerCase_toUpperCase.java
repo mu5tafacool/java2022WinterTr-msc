@@ -1,9 +1,11 @@
-package day11_stringManipulation;
+package src.java_Batch_59_QA.day11_stringManipulation;
+
 import java.util.Locale;
+
 public class C01_toLowerCase_toUpperCase {
     public static void main(String[] args) {
 
-        String str= "Java Guzeldir";
+        String str = "Java Guzeldir";
         // Biz string method'larini arka arkaya kullanabiliriz
         // mesela ikinci kelimenin ilk gharfini kucuk olarak yazdiralim
         // str.charAt(5); boyle yazdigimizda sonuc artik String degil char olacaktir
