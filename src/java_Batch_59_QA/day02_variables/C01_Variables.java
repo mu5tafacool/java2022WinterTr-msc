@@ -9,15 +9,15 @@ public class C01_Variables {
         // geriye kalan tamsayi turlerinden sehrin nufusunu icine alabilecek buyuklukte bir data turu seceiliriz
         // biz kurs boyunca genelde tam sayilar icin int, ondalikli sayilar icin double kullanacagiz
 
-        System.out.println(    "Hello World yazdiran Javayi halleder "    );
-        int level=1;
+        System.out.println("Hello World yazdiran Javayi halleder ");
+        int level = 1;
         System.out.println(level);
-        boolean ogrenciMi= true;
-        boolean yagisVarMi=false;
+        boolean ogrenciMi = true;
+        boolean yagisVarMi = false;
         System.out.println(ogrenciMi);
-        char ozelSembol='&';
-        char sayi='2';
-        char harf='K';
+        char ozelSembol = '&';
+        char sayi = '2';
+        char harf = 'K';
         System.out.println(harf);
     }
 }
