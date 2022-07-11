@@ -1,4 +1,4 @@
-package day14_stringManipulation;
+package src.java_Batch_59_QA.day14_stringManipulation;
 
 public class C01_trim {
     public static void main(String[] args) {
