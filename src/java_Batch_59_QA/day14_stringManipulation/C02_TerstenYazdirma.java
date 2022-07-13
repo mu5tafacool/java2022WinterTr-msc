@@ -1,4 +1,4 @@
-package day14_stringManipulation;
+package src.java_Batch_59_QA.day14_stringManipulation;
 
 import java.util.Locale;
 
