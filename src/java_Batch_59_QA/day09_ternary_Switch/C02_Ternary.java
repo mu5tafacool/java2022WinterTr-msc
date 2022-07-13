@@ -12,12 +12,12 @@ public class C02_Ternary {
         // kullanicidan bir tamsayi alip tek mi cift mi yazdiran bir kod yazalim
 
 
-        Scanner scan=new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.println("lutfen pozitif tamsayi girin");
 
-        int sayi= scan.nextInt();
+        int sayi = scan.nextInt();
 
-        if (sayi%2==0){
+        if (sayi % 2 == 0) {
             System.out.println("sayi cift");
         } else {
             System.out.println("sayi tek");
@@ -25,6 +25,6 @@ public class C02_Ternary {
 
 
         //Ternary yazimi
-        System.out.println(sayi%2==0 ? "sayi cift with Ternary" : "sayi tek with Ternary");
+        System.out.println(sayi % 2 == 0 ? "sayi cift with Ternary" : "sayi tek with Ternary");
     }
 }
