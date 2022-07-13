@@ -1,4 +1,4 @@
-package day13_stringManipulation;
+package src.java_Batch_59_QA.day13_stringManipulation;
 
 public class C02_subsring {
     public static void main(String[] args) {
