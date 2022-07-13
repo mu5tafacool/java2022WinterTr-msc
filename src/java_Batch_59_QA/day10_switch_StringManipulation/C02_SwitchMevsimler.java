@@ -1,4 +1,4 @@
-package day10_switch_StringManipulation;
+package src.java_Batch_59_QA.day10_switch_StringManipulation;
 
 import java.util.Scanner;
 
@@ -7,11 +7,11 @@ public class C02_SwitchMevsimler {
 
         // Kullanicidan kacinci ay oldugunu alip mevsimi yazdiran bir
         // switch olusturun
-        Scanner scan= new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.println("lutfen kacinci ay oldugunu giriniz");
-        int ayNo=scan.nextInt();
+        int ayNo = scan.nextInt();
 
-        switch (ayNo){
+        switch (ayNo) {
 
             case 12:
             case 1:
