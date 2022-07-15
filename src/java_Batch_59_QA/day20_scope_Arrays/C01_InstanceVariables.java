@@ -1,4 +1,4 @@
-package day20_scope_Arrays;
+package src.java_Batch_59_QA.day20_scope_Arrays;
 
 public class C01_InstanceVariables {
 
