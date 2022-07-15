@@ -1,6 +1,7 @@
 package src.java_Batch_59_QA.day24_lists;
 
-import day23_multiDimensionalArrays.C06_Arrays;
+
+import src.java_Batch_59_QA.day23_multiDimensionalArrays.C06_Arrays;
 
 import java.util.ArrayList;
 import java.util.Arrays;
