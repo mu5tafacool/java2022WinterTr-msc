@@ -7,7 +7,7 @@ public class C01_LocalDate {
     public static void main(String[] args) {
 
         LocalDate trh = LocalDate.now(); // objenin olusturuldugu tarihi trh'ye atar
-        LocalDate baskaTrh=LocalDate.of(1972,1,18);
+        LocalDate baskaTrh = LocalDate.of(1972, 1, 18);
         // istedigimiz yil,ay ve gun degerlerine gore bize obje olusturur
 
         System.out.println(trh); // 2022-03-31
@@ -25,13 +25,12 @@ public class C01_LocalDate {
         System.out.println(trh.plusMonths(9).plusDays(10)); // 2023-01-10
 
         // Istedigimiz ulkenin o andaki tarihini elde etmek istersek
-        LocalDate trhZone= LocalDate.now(ZoneId.of("Japan"));
+        LocalDate trhZone = LocalDate.now(ZoneId.of("Japan"));
         System.out.println(trhZone); // 2022-04-01
 
         // is ile baslayan method'lar boolean sonuclar dondurur
         System.out.println(LocalDate.now().isLeapYear()); // false
         System.out.println(trh.isAfter(baskaTrh)); // true
-
 
 
     }
