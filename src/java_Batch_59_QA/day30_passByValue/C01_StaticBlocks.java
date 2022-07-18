@@ -5,7 +5,7 @@ public class C01_StaticBlocks {
         System.out.println("static block2 calisti");
     }
 
-    static{
+    static {
         /*
         static block class ilk calismaya basladiginda devreye girer
         ve class'in calismasi icin gerekli on hazirliklar icin kullanilir
@@ -16,7 +16,7 @@ public class C01_StaticBlocks {
         System.out.println("static block1 calisti");
     }
 
-    C01_StaticBlocks(){
+    C01_StaticBlocks() {
         System.out.println("Constructor calisti");
     }
 
