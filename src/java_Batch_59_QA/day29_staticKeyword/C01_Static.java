@@ -2,14 +2,14 @@ package src.java_Batch_59_QA.day29_staticKeyword;
 
 public class C01_Static {
 
-    String okulIsmi= "Yildiz koleji";
-    static String okulTelefonu="3122563635";
+    String okulIsmi = "Yildiz koleji";
+    static String okulTelefonu = "3122563635";
 
-    public static void staticMethod(){
+    public static void staticMethod() {
         System.out.println("Statik method calisti");
     }
 
-    public void staticOlmayanMethod(){
+    public void staticOlmayanMethod() {
         System.out.println("Static olmayan method calisti");
     }
 
