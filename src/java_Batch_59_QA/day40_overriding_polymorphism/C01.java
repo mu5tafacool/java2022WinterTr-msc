@@ -2,20 +2,20 @@ package src.java_Batch_59_QA.day40_overriding_polymorphism;
 
 public class C01 {
 
-    public void method1(){
+    public void method1() {
         System.out.println("parent method 1 ");
     }
 
-    protected void method2(){
+    protected void method2() {
         System.out.println("parent method 2 ");
     }
 
-    protected String method3 (){
+    protected String method3() {
 
         return "Parent Java";
     }
 
-    private void method4(){
+    private void method4() {
         System.out.println("Parent method4");
     }
 }

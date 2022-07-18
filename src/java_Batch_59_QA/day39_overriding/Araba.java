@@ -6,7 +6,6 @@ public class Araba {
     protected String yakit= "Arabalar farkli yakitlar kullanabilir";
     protected String marka="Arabalar uretildikleri markaya sahiptir";
 
-
     public void motor(){
         System.out.println("Arabalar farkli markalarda motor kullanirlar");
     }
