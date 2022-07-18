@@ -15,6 +15,5 @@ public class C02_AccessModifier {
 
         // C01 objParametreli= new C01(5); private access modifier'i oldugundan baska class'dan erisil
 
-
     }
 }
