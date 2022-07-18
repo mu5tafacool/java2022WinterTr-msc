@@ -1,4 +1,4 @@
-package day22_arrays;
+package src.java_Batch_59_QA.day22_arrays;
 import java.util.Arrays;
 public class C01_Sort {
     public static void main(String[] args) {
