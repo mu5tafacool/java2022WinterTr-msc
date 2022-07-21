@@ -1,9 +1,11 @@
 package src.java_Batch_59_QA.day24_lists;
+
 import java.util.ArrayList;
 import java.util.List;
+
 public class C02_Remove {
     public static void main(String[] args) {
-        List<String> isimler=new ArrayList<>();
+        List<String> isimler = new ArrayList<>();
         isimler.add("Aykut");
         isimler.add("Yusuf");
         isimler.add("Ilker");
@@ -15,17 +17,17 @@ public class C02_Remove {
         // eger remove isleminin yapildigini kontrol etmek istiyorsaniz
         // method'u boolean bir variable'a atayabilirsiniz
 
-        boolean sonuc= isimler.remove("Oguzhan"); // true
+        boolean sonuc = isimler.remove("Oguzhan"); // true
         // sonucu kullaniciya yazdirmak isterseniz
         // if/else ile istediginiz degerlendirmeyi yazabilirsiniz
-        if (sonuc==true){
+        if (sonuc == true) {
             System.out.println("istediginiz isim silindi");
         } else {
             System.out.println("istediginiz isim listede olmadigindan silinemedi");
         }
         System.out.println(isimler); // [Aykut, Yusuf, Ilker]
         sonuc = isimler.remove("Berk");
-        if (sonuc==true){
+        if (sonuc == true) {
             System.out.println("istediginiz isim silindi");
         } else {
             System.out.println("istediginiz isim listede olmadigindan silinemedi");
