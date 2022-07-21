@@ -24,7 +24,7 @@ public class C02_LocalTime {
         double nano2 = tmLoopSonrasi.getNano();
 
         System.out.println("islem " + (nano2 - nano1) + " nanosaniyede bitti");
-//3549000.0 nanosaniyede bitti
+        //3549000.0 nanosaniyede bitti
 
         // ileri veya geriye gidebiliriz
         System.out.println(tm.plusMinutes(1000)); // 13:59:49.227878
