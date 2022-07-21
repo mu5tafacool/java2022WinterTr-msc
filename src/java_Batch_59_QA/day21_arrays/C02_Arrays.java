@@ -1,4 +1,4 @@
-package day21_arrays;
+package src.java_Batch_59_QA.day21_arrays;
 import java.util.Arrays;
 public class C02_Arrays {
     public static void main(String[] args) {
@@ -25,7 +25,7 @@ public class C02_Arrays {
         for (int i = 0; i <4 ; i++) {
             System.out.print(arr2[i] + " ");
         }
-        System.out.println("");
+        System.out.println(""); //0 0 0 0
 
         // array i yazdirmak icin Javadaki Arrays class'indan toString() kullanilir
         System.out.println(Arrays.toString(arr2)); // [0, 0, 0, 0]
