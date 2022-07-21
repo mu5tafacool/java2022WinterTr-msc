@@ -16,7 +16,7 @@ public class C02_Equals {
         }
 
 
-        String b="2cfalse";
+        String b = "2cfalse";
         if (b == "2cfalse") {
             System.out.println("=="); //==
         }
