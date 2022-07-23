@@ -1,4 +1,4 @@
-package day20_scope_Arrays;
+package src.java_Batch_59_QA.day20_scope_Arrays;
 public class C02_StaticVariables {
     /* instance variable'lar obje'ye bagimlidir ve her obje farkli degerler alabilir
         ogrenci notlari veya ogretmen branslari gibi
