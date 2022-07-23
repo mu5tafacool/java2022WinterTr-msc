@@ -14,7 +14,8 @@ public class C03 {
     public String getStr() { //get ve altaki set biri getirirken digeri set yani chance ediyor
         return str;
     }
-//set deger girebiliyor ama okuyamiyor , get okuyabiiyor ama yazamiyor yoneticiler icin
+
+    //set deger girebiliyor ama okuyamiyor , get okuyabiiyor ama yazamiyor yoneticiler icin
     public void setStr(String str) { //sonucu gostememek icin set yapilir
         this.str = str;
     }
@@ -23,6 +24,6 @@ public class C03 {
     public String toString() {
         return
                 "sayi=" + sayi +
-                        ", str=" + str ;
+                        ", str=" + str;
     }
 }
