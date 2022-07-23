@@ -7,25 +7,25 @@ public class C02_Varargs {
         // en uzun kelimenin harf sayisi ile int parametre degerini
         // carpip sonucu yazdiran bir method olusturun
 
-        int sayi=5;
-        String str1="Zulal";
-        String str2="Zeynep";
-        String str3="Ali";
+        int sayi = 5;
+        String str1 = "Zulal";
+        String str2 = "Zeynep";
+        String str3 = "Ali";
 
 
-        carpim(sayi, str1,str2,str3);
+        carpim(sayi, str1, str2, str3);
         // Bir method'da varargs disinda parametre kullanacaksak
         // once diger parametreleri yazip, varargs'i en sona yazmaliyiz
         // Bu sebeple bir method'da birden fazla varargs olamaz
     }
 
-    private static void carpim( int sayi, String... str ) {
-        String enUzunStr="";
+    private static void carpim(int sayi, String... str) {
+        String enUzunStr = "";
 
-        for (String each: str
+        for (String each : str
         ) {
-            if (each.length()>enUzunStr.length()){
-                enUzunStr=each;
+            if (each.length() > enUzunStr.length()) {
+                enUzunStr = each;
             }
         }
 
