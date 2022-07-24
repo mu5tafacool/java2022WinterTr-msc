@@ -1,4 +1,4 @@
-package day21_arrays;
+package src.java_Batch_59_QA.day21_arrays;
 import java.util.Arrays;
 public class C03_Arrays {
     public static void main(String[] args) {
