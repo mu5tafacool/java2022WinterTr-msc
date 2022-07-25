@@ -1,4 +1,4 @@
-package day13_stringManipulation;
+package src.java_Batch_59_QA.day13_stringManipulation;
 public class C03_Cte_Rte {
     public static void main(String[] args) {
         // int sayi="Ali Can"; // syntax hatalarini java yazdigimizda gorur
