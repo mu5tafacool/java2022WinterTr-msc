@@ -1,4 +1,4 @@
-package day19_doWhileLoop;
+package src.java_Batch_59_QA.day19_doWhileLoop;
 
 public class C03_DoWhileLoop {
     public static void main(String[] args) {
