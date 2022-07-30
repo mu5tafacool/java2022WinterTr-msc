@@ -1,4 +1,4 @@
-package day16_methodCreation;
+package src.java_Batch_59_QA.day16_methodCreation;
 
 public class C03_Overloading {
     public static void main(String[] args) {
@@ -30,7 +30,9 @@ public class C03_Overloading {
         ikiSayiTopla(sayi5, sayi6);
         ikiSayiTopla1(sayi5, sayi6);
 
-        //
+        // bir class'da ayni isimde birden fazla method olmasina overloading denilir
+        // ya parametre sayisi farkli olmali
+        // veya parametre sayisi ayni ise argumentlerin data turleri farkli olmali
 
 
     }
