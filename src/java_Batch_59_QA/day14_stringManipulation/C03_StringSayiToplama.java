@@ -1,4 +1,4 @@
-package day14_stringManipulation;
+package src.java_Batch_59_QA.day14_stringManipulation;
 
 public class C03_StringSayiToplama {
     public static void main(String[] args) {
