@@ -17,21 +17,20 @@ public class C04_HaftaIciHaftaSonu {
         // yani pazar, PAZAR,Pazar, PAzar bunlar hep farkli kelimelerdir
         // bu durumda String methodlarindan yardim aliriz
 
-        Scanner scan= new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.println("Lutfen gun ismini yaziniz");
-        String gunIsmi=scan.next().toLowerCase(); // kullanici nasil yazarsa yazsin biz kucuk harfe ceviriyorz
+        String gunIsmi = scan.next().toLowerCase(); // kullanici nasil yazarsa yazsin biz kucuk harfe ceviriyorz
         // String ifadelerde == kullanilmasi tavsiye edilmez
         // cunku bekledigimizden farkli sonuc verebilir
 
-        if (gunIsmi.equals("pazar") || gunIsmi.equals("cumartesi")){
+        if (gunIsmi.equals("pazar") || gunIsmi.equals("cumartesi")) {
             System.out.println("girdiginiz gun haftasonu");
         }
         if (gunIsmi.equals("pazartesi") || gunIsmi.equals("sali") ||
-                gunIsmi.equals("carsamba")||gunIsmi.equals("persembe") ||
-                gunIsmi.equals("cuma")){
+                gunIsmi.equals("carsamba") || gunIsmi.equals("persembe") ||
+                gunIsmi.equals("cuma")) {
             System.out.println("girdiginiz gun hafta ici");
         }
-
 
 
     }
