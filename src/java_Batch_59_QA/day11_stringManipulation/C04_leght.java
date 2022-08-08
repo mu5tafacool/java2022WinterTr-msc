@@ -1,4 +1,4 @@
-package day11_stringManipulation;
+package src.java_Batch_59_QA.day11_stringManipulation;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -9,18 +9,18 @@ public class C04_leght {
 
         // Kullanicidan ismini alip basharfini ve son harfini Buyuk harflerle yazdirin
 
-        Scanner scan=new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.println("lutfen isim girin");
-        String isim= scan.nextLine();
+        String isim = scan.nextLine();
 
-                                        //once ismi aliyor sonra yerel dil harf buyuk olunca bozulmamasi
-                                        //icin tr ceviriyor.
-                                // ikincide ise alinan isim uzunlugundan en son harfi aliyor > isim.length()-1)
+        //once ismi aliyor sonra yerel dil harf buyuk olunca bozulmamasi
+        //icin tr ceviriyor.
+        // ikincide ise alinan isim uzunlugundan en son harfi aliyor > isim.length()-1)
         System.out.println("ilk harf : " + isim.toUpperCase(Locale.forLanguageTag("tr")).charAt(0));
-        System.out.println("son harf : " + isim.toUpperCase(Locale.forLanguageTag("tr")).charAt(isim.length()-1));
+        System.out.println("son harf : " + isim.toUpperCase(Locale.forLanguageTag("tr")).charAt(isim.length() - 1));
 
         //bosluk bile "" 0 karakter dir
-        String str1= "";
+        String str1 = "";
         System.out.println(str1.length());
 
         //String str2= null;

@@ -1,6 +1,8 @@
 package src.java_Batch_59_QA.day25_lists;
+
 import java.util.ArrayList;
 import java.util.List;
+
 public class C04_ListedenTekrarliElementleriSilme {
     public static void main(String[] args) {
         // verilen bir listede tekrar eden sayilari sadece 1 kere yazdiran
@@ -19,10 +21,11 @@ public class C04_ListedenTekrarliElementleriSilme {
         tekrarsizListeOlustur(sayilar);
         System.out.println(sayilar);
     }
+
     public static void tekrarsizListeOlustur(List<Integer> sayilar) {
         List<Integer> tekrarsizList = new ArrayList<>();
-        for (int i = 0; i <sayilar.size() ; i++) {
-            if (!tekrarsizList.contains(sayilar.get(i))){
+        for (int i = 0; i < sayilar.size(); i++) {
+            if (!tekrarsizList.contains(sayilar.get(i))) {
                 tekrarsizList.add(sayilar.get(i));
             }
         }
