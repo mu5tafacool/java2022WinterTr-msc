@@ -10,18 +10,18 @@ public class C04_PassByValue {
 
     public static void main(String[] args) {
 
-        etiketFiyati=100;
-        indirimYuzdesi=10;
+        etiketFiyati = 100;
+        indirimYuzdesi = 10;
         kaliciIndirimYap();
-        indirimYuzdesi=15;
+        indirimYuzdesi = 15;
         kaliciIndirimYap();
-        indirimYuzdesi=5;
+        indirimYuzdesi = 5;
         kaliciIndirimYap(); //kalici bir indirim oluyor yukardaki static atamadan devamli degisiyor
 
     }
 
-    public static void kaliciIndirimYap(){
-        etiketFiyati=etiketFiyati*(100-indirimYuzdesi)/100 ;
+    public static void kaliciIndirimYap() {
+        etiketFiyati = etiketFiyati * (100 - indirimYuzdesi) / 100;
         System.out.println("indirimli fiyat : " + etiketFiyati);
 
     }
