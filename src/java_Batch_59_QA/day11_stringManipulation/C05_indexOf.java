@@ -1,4 +1,4 @@
-package day11_stringManipulation;
+package src.java_Batch_59_QA.day11_stringManipulation;
 import java.util.Scanner;
 public class C05_indexOf {
     public static void main(String[] args) {
