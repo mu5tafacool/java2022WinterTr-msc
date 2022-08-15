@@ -1,6 +1,8 @@
 package src.java_Batch_59_QA.day25_lists;
+
 import java.util.ArrayList;
 import java.util.List;
+
 public class C05_ListiTekrarsizYap {
     public static void main(String[] args) {
         // verilen bir listede tekrar eden sayilari sadece 1 tane yapan
@@ -17,15 +19,16 @@ public class C05_ListiTekrarsizYap {
         sayilar.add(1);
         sayilar.add(7);
 
-       // alttaki return type ile burada
+        // alttaki return type ile burada
         // sayilar= ile atama yaptigimizdan kalici degistirdim
-        sayilar= tekrarsizListeOlustur(sayilar);
+        sayilar = tekrarsizListeOlustur(sayilar);
         System.out.println(sayilar);
     }
+
     public static List<Integer> tekrarsizListeOlustur(List<Integer> sayilar) {
         List<Integer> tekrarsizList = new ArrayList<>();
-        for (int i = 0; i <sayilar.size() ; i++) {
-            if (!tekrarsizList.contains(sayilar.get(i))){
+        for (int i = 0; i < sayilar.size(); i++) {
+            if (!tekrarsizList.contains(sayilar.get(i))) {
                 tekrarsizList.add(sayilar.get(i));
             }
         }
