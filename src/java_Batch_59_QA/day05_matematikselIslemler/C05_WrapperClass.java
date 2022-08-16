@@ -1,11 +1,12 @@
 package src.java_Batch_59_QA.day05_matematikselIslemler;
+
 public class C05_WrapperClass {
     public static void main(String[] args) {
 
-        short sayi1=20;
-        Short sayi2=30;
+        short sayi1 = 20;
+        Short sayi2 = 30;
 
-        sayi1=sayi2;  // wrapper class ile ayni isimdeki primitive data turu arasinda gecis olabilir
+        sayi1 = sayi2;  // wrapper class ile ayni isimdeki primitive data turu arasinda gecis olabilir
 
         System.out.println(sayi1); // 30
         System.out.println(Short.MAX_VALUE); // 32767
