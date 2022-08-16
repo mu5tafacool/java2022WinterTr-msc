@@ -12,10 +12,10 @@ public class C05_StringBuilder {
         Tamamen ayni ise bize 0 dondurur
         bir sb ile bir String'i compare etmek istersek Java CTE verir
          */
-        StringBuilder sb1= new StringBuilder("Ali Can");
-        StringBuilder sb2= new StringBuilder("Ali Can");
+        StringBuilder sb1 = new StringBuilder("Ali Can");
+        StringBuilder sb2 = new StringBuilder("Ali Can");
 
-        String str= "Ali Can";
+        String str = "Ali Can";
 
         System.out.println(sb1.compareTo(sb2)); // 0
 
