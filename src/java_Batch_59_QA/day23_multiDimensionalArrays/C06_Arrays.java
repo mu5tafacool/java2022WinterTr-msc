@@ -1,4 +1,4 @@
-package day23_multiDimensionalArrays;
+package src.java_Batch_59_QA.day23_multiDimensionalArrays;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 public class C06_Arrays {
@@ -8,14 +8,14 @@ public class C06_Arrays {
         int eklenecekElement=1;
         arr= arrayeElemanEkle(arr,eklenecekElement);
         arr=arrayeElemanEkle(arr,5);
-        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr)); //[3, 5, 7, 5, 2, 1, 5]
     }
     public static int[] arrayeElemanEkle(int[] arr, int eklenecekElement) {
         int yeniArray[]=new int[arr.length+1]; // [0,0,0,0]
         for (int i = 0; i <arr.length ; i++) {
             yeniArray[i]=arr[i];
         }
-        yeniArray[yeniArray.length-1]=eklenecekElement;
+        yeniArray[yeniArray.length-1]=eklenecekElement; //1 ekleniyor ve ikincide 5
         return yeniArray;
     }
 }
