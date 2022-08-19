@@ -1,4 +1,4 @@
-package day15_methodCreation;
+package src.java_Batch_59_QA.day15_methodCreation;
 public class C06_MethodCreation {
     public static void main(String[] args) {
         int a=10;
