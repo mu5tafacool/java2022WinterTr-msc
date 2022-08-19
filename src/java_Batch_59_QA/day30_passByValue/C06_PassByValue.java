@@ -17,7 +17,6 @@ public class C06_PassByValue {
         arrDegistirme(arr);
         System.out.println("method call sonrasi :" + Arrays.toString(arr)); //[5, 6, 3]
     }
-
     private static void arrDegistirme(int[] arr) {
 
         arr[0] = 5; //objenin elemanini degistiriyoruz.Arrayi degistirmedik yani obje ayni degeri degisti
