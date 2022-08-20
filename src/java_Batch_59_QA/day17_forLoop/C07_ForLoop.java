@@ -1,4 +1,4 @@
-package day17_forLoop;
+package src.java_Batch_59_QA.day17_forLoop;
 
 public class C07_ForLoop {
     public static void main(String[] args) {
