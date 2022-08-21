@@ -1,4 +1,4 @@
-package day23_multiDimensionalArrays;
+package src.java_Batch_59_QA.day23_multiDimensionalArrays;
 import java.util.Scanner;
 public class C07_MDArrays {
     public static void main(String[] args) {
