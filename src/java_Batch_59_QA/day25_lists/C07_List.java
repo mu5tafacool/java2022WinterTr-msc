@@ -1,6 +1,8 @@
 package src.java_Batch_59_QA.day25_lists;
+
 import java.util.ArrayList;
 import java.util.List;
+
 public class C07_List {
     public static void main(String[] args) {
         // bir listede ortalamanin ustunde olan element sayisini bulunuz
@@ -14,17 +16,17 @@ public class C07_List {
         sayilar.add(1.0);
         sayilar.add(7.0);
         // ortalamayi bul
-        double ortalama=0.0;
-        double toplam=0.0;
-        for (int i = 0; i <sayilar.size() ; i++) {
-            toplam+=sayilar.get(i);
+        double ortalama = 0.0;
+        double toplam = 0.0;
+        for (int i = 0; i < sayilar.size(); i++) {
+            toplam += sayilar.get(i);
         }
-        ortalama= toplam / sayilar.size();
+        ortalama = toplam / sayilar.size();
         System.out.println(ortalama); // 3.875
         // ortalamanin ustunde olanlari, bir liste at
-        List<Double> ortalamaninUstundekiler=new ArrayList<>();
-        for (int i = 0; i < sayilar.size() ; i++) {
-            if (sayilar.get(i)>ortalama){
+        List<Double> ortalamaninUstundekiler = new ArrayList<>();
+        for (int i = 0; i < sayilar.size(); i++) {
+            if (sayilar.get(i) > ortalama) {
                 ortalamaninUstundekiler.add(sayilar.get(i));
             }
         }
