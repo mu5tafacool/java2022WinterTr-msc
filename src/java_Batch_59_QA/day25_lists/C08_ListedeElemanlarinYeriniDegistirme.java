@@ -1,6 +1,8 @@
 package src.java_Batch_59_QA.day25_lists;
+
 import java.util.ArrayList;
 import java.util.List;
+
 public class C08_ListedeElemanlarinYeriniDegistirme {
     public static void main(String[] args) {
         // Verilen bir listede, istenen iki index'deki elementlerin yerini
@@ -14,10 +16,11 @@ public class C08_ListedeElemanlarinYeriniDegistirme {
         sayilar.add(6);
         sayilar.add(1);
         sayilar.add(7);
-        int ilkIndex=2;
-        int ikinciIndex=5;
-        sayilar= swapElements(sayilar,ilkIndex,ikinciIndex);
+        int ilkIndex = 2;
+        int ikinciIndex = 5;
+        sayilar = swapElements(sayilar, ilkIndex, ikinciIndex);
     }
+
     public static List<Integer> swapElements(List<Integer> sayilar, int ilkIndex, int ikinciIndex) {
         // bir tem sayi olusturup
         // verilen indexlerdeki sayilari yer degistirin
