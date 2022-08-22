@@ -1,4 +1,4 @@
-package day22_arrays;
+package src.java_Batch_59_QA.day22_arrays;
 import java.util.Arrays;
 public class C07_Split {
     public static void main(String[] args) { //bu ders 16/03/22 saat 23:00 gibi son 30 dk kala
