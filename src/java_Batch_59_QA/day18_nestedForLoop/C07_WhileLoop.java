@@ -1,4 +1,4 @@
-package day18_nestedForLoop;
+package src.java_Batch_59_QA.day18_nestedForLoop;
 
 import java.util.Scanner;
 
