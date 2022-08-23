@@ -1,4 +1,4 @@
-package day23_multiDimensionalArrays;
+package src.java_Batch_59_QA.day23_multiDimensionalArrays;
 public class C08_MDArrays {
     public static void main(String[] args) {
         // Soru 2) Asagidaki multi dimensional array’in
