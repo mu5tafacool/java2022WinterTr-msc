@@ -1,4 +1,4 @@
-package day17_forLoop;
+package src.java_Batch_59_QA.day17_forLoop;
 public class C08_Palindrome {
     public static void main(String[] args) {
         // Soru 9 ) Interview Question Kullanicidan bir String isteyin.
