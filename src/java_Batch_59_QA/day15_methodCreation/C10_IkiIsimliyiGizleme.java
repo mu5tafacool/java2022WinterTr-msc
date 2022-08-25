@@ -1,4 +1,4 @@
-package day15_methodCreation;
+package src.java_Batch_59_QA.day15_methodCreation;
 
 import java.util.Scanner;
 
