@@ -1,8 +1,8 @@
 package src.java_Batch_59_QA.day36_inheritance;
 
-public class Child extends Parent{
+public class Child extends Parent {
 
-    Child(){
+    Child() {
         super();
         System.out.println("Child Cons. calisti");
     }
