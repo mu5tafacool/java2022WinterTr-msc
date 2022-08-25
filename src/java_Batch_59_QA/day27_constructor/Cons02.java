@@ -1,4 +1,5 @@
 package src.java_Batch_59_QA.day27_constructor;
+
 public class Cons02 {
     public static void main(String[] args) {
         // Cons01 obj1= new Cons01(); // default constructor devrede
@@ -13,6 +14,6 @@ public class Cons02 {
            default constructor'in islevini gerceklestirecek
            parametresiz bir constructor olusturmakta fayda var
          */
-        Cons01 obj2=new Cons01("Java");
+        Cons01 obj2 = new Cons01("Java");
     }
 }
