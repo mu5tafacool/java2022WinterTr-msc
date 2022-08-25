@@ -1,19 +1,20 @@
 package src.java_Batch_59_QA.day39_overriding;
 
-public class Corolla extends Toyota{
+public class Corolla extends Toyota {
 
-    protected String hiz="Corolla max 200 km hiz yapar";
-    protected String yakit= "Corolla benzinli veya elektriklidir";
-    protected String model="Corolla";
-    public void motor(){
+    protected String hiz = "Corolla max 200 km hiz yapar";
+    protected String yakit = "Corolla benzinli veya elektriklidir";
+    protected String model = "Corolla";
+
+    public void motor() {
         System.out.println("Corolla araclar cevreci motor kullanir");
     }
 
-    public void yakitTuketimi(){
+    public void yakitTuketimi() {
         System.out.println("Corolla 5.6 lt yakit tuketir");
     }
 
-    public void vitesSayisi(){
+    public void vitesSayisi() {
         System.out.println("Corolla 5 viteslidir");
     }
 
@@ -41,7 +42,7 @@ public class Corolla extends Toyota{
         arb1.motor(); // Corolla
 
 
-        Toyota arb2= new Corolla();
+        Toyota arb2 = new Corolla();
         System.out.println(arb2.hareket); // araba
         System.out.println(arb2.hiz); // Toyota
         System.out.println(arb2.yakit); // Araba
