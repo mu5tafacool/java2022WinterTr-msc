@@ -1,9 +1,11 @@
 package src.java_Batch_59_QA.day27_constructor;
+
 public class Cons01 {
-    public Cons01(String par1){
+    public Cons01(String par1) {
         System.out.println("parametreli");
     }
-    Cons01(){
+
+    Cons01() {
         System.out.println("parametresiz");
     }
 }
