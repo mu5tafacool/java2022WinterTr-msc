@@ -1,4 +1,4 @@
-package day18_nestedForLoop;
+package src.java_Batch_59_QA.day18_nestedForLoop;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -15,7 +15,7 @@ public class H_sayiBulmaca {
 
         Random r = new Random(); //random sınıfı
         int random = r.nextInt(10);
-        System.out.println(random);
+        System.out.println(random); //ipucu gosterme
         Scanner scan = new Scanner(System.in);
         int tahmin = 0;
         int i = 0;
