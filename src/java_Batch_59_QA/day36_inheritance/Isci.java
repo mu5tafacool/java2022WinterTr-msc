@@ -1,9 +1,10 @@
 package src.java_Batch_59_QA.day36_inheritance;
 
-public class Isci extends Muhasebe{
+public class Isci extends Muhasebe {
 
-    protected String isciStatu ="Surekli Isci";
-    protected void mesai(){
+    protected String isciStatu = "Surekli Isci";
+
+    protected void mesai() {
         System.out.println("Isciler gunluk 8 saat ve haftada 5 gun calisir");
     }
 }
