@@ -1,4 +1,4 @@
-package day18_nestedForLoop;
+package src.java_Batch_59_QA.day18_nestedForLoop;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class HH {
     public static void main(String[] args) {
 
-        int random = 10;
+        int random = 10; //bulunmasi gereken rakam
 
         Scanner scan = new Scanner(System.in);
         int tahmin = 0;
