@@ -1,8 +1,8 @@
 package src.java_Batch_59_QA.day39_overriding;
 
-public class OverridingChild extends OverridingParent{
+public class OverridingChild extends OverridingParent {
 
-    public void method1(){
+    public void method1() {
         System.out.println("Child class method1");
     }
 
@@ -16,11 +16,11 @@ public class OverridingChild extends OverridingParent{
     parent'larina bakar
      */
 
-        OverridingChild obj1= new OverridingChild();
+        OverridingChild obj1 = new OverridingChild();
         obj1.method1(); // Child class method1
         obj1.method2(); // Parent class method2
 
-        OverridingParent obj3= new OverridingParent();
+        OverridingParent obj3 = new OverridingParent();
         obj3.method2(); // Parent class method2
         obj3.method1(); // Parent class method1
 
@@ -34,7 +34,7 @@ public class OverridingChild extends OverridingParent{
         Eger child class'larda bumethod override edilmisse
         override eden method calisir
          */
-        OverridingParent obj2= new OverridingChild();
+        OverridingParent obj2 = new OverridingChild();
         obj2.method2(); // Parent class method2
         obj2.method1(); // Child class method1
     }
