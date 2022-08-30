@@ -1,4 +1,4 @@
-package day35_inheritance;
+package src.java_Batch_59_QA.day35_inheritance;
 
 public class Personel {
 
