@@ -1,4 +1,4 @@
-package JavaProjects.P02_javaBankATM.JavaBankMsc;
+package src.Proje.P02_javaBankATM.JavaBankMsc;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -11,7 +11,7 @@ public class BankRunner extends BankClass {
 
     public static void main(String[] args) {
 
-        BankControl pin = new BankRunner();
+        JavaProjects.P02_javaBankATM.JavaBankMsc.BankControl pin = new BankRunner();
         System.out.println("sifre girin");
         String userpin = scan.next();
 
