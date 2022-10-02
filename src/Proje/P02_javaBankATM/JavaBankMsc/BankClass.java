@@ -1,9 +1,9 @@
-package JavaProjects.P02_javaBankATM.JavaBankMsc;
+package src.Proje.P02_javaBankATM.JavaBankMsc;
 
 
-import static JavaProjects.P02_javaBankATM.JavaBankMsc.BankRunner.scan;
+import static src.Proje.P02_javaBankATM.JavaBankMsc.BankRunner.scan;
 
-public class BankClass<index> extends BankControl {
+public class BankClass<index> extends JavaProjects.P02_javaBankATM.JavaBankMsc.BankControl {
 
     //        Bakiye sorgula, para yatirma, para çekme, para gönderme, 
     //        sifre değiştirme ve cikis.
