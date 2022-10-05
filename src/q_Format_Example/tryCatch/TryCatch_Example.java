@@ -28,9 +28,11 @@ public class TryCatch_Example {
 
 
 /** 2* yonetem *********************************/
+        System.out.print("\n*********2. yontem******\n");
+
         while (true) {
             try {
-                System.out.print("\n2. yontem rakam gir : ");
+                System.out.print("rakam gir : ");
                 scan.nextInt(); //int sayi=scan.nextInt();
                 //System.out.println("sayi = " + sayi);
                 break; // dogruysa durdurmak icin
