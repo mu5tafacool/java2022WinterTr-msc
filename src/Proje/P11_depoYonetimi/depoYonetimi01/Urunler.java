@@ -7,7 +7,7 @@ public class Urunler {//pojo model class
     private int miktar;
     private String birim;
     private String raf;
-    /** 2*projrnin calisacagi objeleri prvite olarak pojo model class yaptik*/
+    /** 2*projenin calisacagi objeleri prvite olarak pojo model class yaptik*/
 
     public Urunler() {
     }
