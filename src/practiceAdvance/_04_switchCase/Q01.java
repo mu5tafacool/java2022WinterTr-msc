@@ -61,7 +61,7 @@ public class Q01 {
         }
 
 
-        System.out.println("*****  2. yol  ******* ");
+        System.out.println("******  2. yol  ******* ");
         if (not >= 0 && not < 50) {
             not = 0;
         } else if (not >= 50 && not < 60) {
