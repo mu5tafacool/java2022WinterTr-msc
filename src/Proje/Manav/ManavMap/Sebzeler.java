@@ -15,9 +15,7 @@ public class Sebzeler {
     private String yeniUrunAdi;
 
 
-
-
-  static  ArrayList<String> urunlerList = new ArrayList<>(Arrays.asList(
+    static ArrayList<String> urunlerList = new ArrayList<>(Arrays.asList(
             "Domat  - urun kodu : 1", "Elma   - urun kodu : 2", "Muz    - urun kodu : 3",
             "Biber  - urun kodu : 4", "Patlcan - urun kodu : 5", "Urun eklemek icin : 10", "Cikmak icin : 0"));
 
@@ -29,7 +27,8 @@ public class Sebzeler {
         BiberFiyat = biberFiyat;
         PatlicanFiyat = patlicanFiyat;
     }
-    public Sebzeler(){
+
+    public Sebzeler() {
 
     }
 
@@ -38,8 +37,8 @@ public class Sebzeler {
     }
 
     public Sebzeler(String yeniUrunAdi, Double yeniUrunFiyati) {
-        this.yeniUrunAdi=yeniUrunAdi;
-        this.yeniUrunFiyati=yeniUrunFiyati;
+        this.yeniUrunAdi = yeniUrunAdi;
+        this.yeniUrunFiyati = yeniUrunFiyati;
 
     }
 
@@ -110,11 +109,11 @@ public class Sebzeler {
     @Override
     public String toString() {
         return "Sebzeler{" +
-                "domatesFiyat=" + domatesFiyat +" TL " +
-                ", ElmaFiyat=" + ElmaFiyat +" TL " +
-                ", MuzFiyat=" + MuzFiyat +" TL " +
-                ", BiberFiyat=" + BiberFiyat +" TL " +
-                ", PatlicanFiyat=" + PatlicanFiyat +" TL " +
+                "domatesFiyat=" + domatesFiyat + " TL " +
+                ", ElmaFiyat=" + ElmaFiyat + " TL " +
+                ", MuzFiyat=" + MuzFiyat + " TL " +
+                ", BiberFiyat=" + BiberFiyat + " TL " +
+                ", PatlicanFiyat=" + PatlicanFiyat + " TL " +
                 '}';
     }
 }
