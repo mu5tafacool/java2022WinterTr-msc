@@ -1,4 +1,4 @@
-package day27_constructor;
+package src.java_Batch_59_QA.day27_constructor;
 
 public class VolvoRunner {
 
@@ -17,6 +17,7 @@ public class VolvoRunner {
         arb2.model="XC90";
         arb2.maxHiz= arb2.maxHizAta();
         System.out.println(arb2.toString()); // Model : XC90 Yakit : Elektrikli Max Hiz : 160
+
 
     }
 }
