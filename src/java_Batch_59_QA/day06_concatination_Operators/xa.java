@@ -4,9 +4,9 @@ public class xa {
 
     public static void main(String[] args) {
 
-        boolean sonuc1=5+2 !=8;
+        boolean sonuc1 = 5 + 2 != 8;
         System.out.println(sonuc1);
-        System.out.println(5*2!=10);
-        System.out.println(5+2<8);
+        System.out.println(5 * 2 != 10); //esit degil false
+        System.out.println(5 + 2 < 8);
     }
 }
